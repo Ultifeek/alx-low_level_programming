@@ -9,7 +9,7 @@ int main(void)
 	char a[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
 
-	for (i = 0; i < 26; ++1)
+	for (i = 0; i < 26; ++i)
 	{
 		putchar(a[i]);
 	}
