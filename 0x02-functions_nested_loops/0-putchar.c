@@ -5,15 +5,7 @@
  * main - print _putchar.
  * Return: Always 0 (Success)
  */
-int main(void)
+int _putchar(char c)
 {
-	char p[] = "_putchar";
-	int i;
-
-	for (i = 0; i < 8; i++)
-	{
-		putchar(p[i]);
-	}
-	putchar('\n');
-	return (0);
+	return (write(1, &c, 1));
 }
