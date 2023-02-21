@@ -3,7 +3,9 @@
 
 /**
  * main - print _putchar.
- * Return: Always 0 (Success)
+ * @c: The character to print
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
 int _putchar(char c)
 {
