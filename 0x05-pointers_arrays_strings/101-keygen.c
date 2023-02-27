@@ -19,7 +19,7 @@ int main(void)
 	while (j < 2772)
 	{
 		i = rand() % 128;
-		if ((c + i) > 2772)
+		if ((j + i) > 2772)
 		{
 			break;
 		}
