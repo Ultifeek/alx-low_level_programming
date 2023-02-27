@@ -9,19 +9,19 @@
 
 int main(void)
 {
-	int i = 0, j = 0;
+	int r = 0, c = 0;
 	time_t t;
 
 	srand((unsigned int) time(&t));
-	while (j < 2772)
+	while (c < 2772)
 	{
-		i = rand() % 128;
-		if ((j + i) > 2772)
+		r = rand() % 128;
+		if ((c + r) > 2772)
 			break;
-		j = j + i;
-		printf("%c", i);
+		c = c + r;
+		printf("%c", r);
 	}
-	printf("%c\n", (2772 - i));
+	printf("%c\n", (2772 - c));
 	return (0);
 }
 
