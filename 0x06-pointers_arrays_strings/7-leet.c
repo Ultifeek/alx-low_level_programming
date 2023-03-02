@@ -11,7 +11,7 @@ char *leet(char *s)
 	int count = 0, i;
 	int lower[] = {97, 101, 111, 116, 108};
 	int cap[] = {65, 69, 79, 84, 76};
-	int nums[] = {52, 51, 48, 55, 49};
+	int numbers[] = {52, 51, 48, 55, 49};
 
 	while (*(s + count) != '\0')
 	{
@@ -19,7 +19,7 @@ char *leet(char *s)
 		{
 			if (*(s + count) == lower[i] || *(s + count) == cap[i])
 			{
-				*(s + count) = nums[i];
+				*(s + count) = numbers[i];
 				break;
 			}
 		}
