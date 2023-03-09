@@ -11,7 +11,7 @@ int power(int n, int m)
 {
 	if (m % (n / m) == 0)
 	{
-		if (m * (n / m) == m)
+		if (m * (n / m) == n)
 			return (m);
 		else
 			return (-1);
